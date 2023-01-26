@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Web Personnel</title>
+    <link rel="stylesheet" href="../Css Fichier/quizz.css">
+
+    <script type="text/javascript" src="../Javascript/Javascript.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--pour la police d'écriture-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Changa:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--En tete-->
+    <header>
+        <div class="principal">
+            <nav>
+                <a href="../Html Fichier/Siteperso.html" class="none"><h2>Charles Light <span>Jarvis</span></h2>
+                <ul class="navigation">
+                    <li><a href="../Html Fichier/Parcous.html">Parcours</a></li>
+                    <li><a href="../Html Fichier/Competences.html">Compétences Informatique</a></li>
+                    <!---En tete et table de navigation-->
+                    <li><a href="../Html Fichier/Experiences.html">Stage/Expérience</a></li>
+                    <li><a href="../Html Fichier/Formation.html">Formation</a></li>
+                    <li><a href="../Html Fichier/Matieres.html">TP/Matieres</a></li>
+                    <li><a href="../Html Fichier/Mes Passions.html">Mes Passions</a></li>
+                    <li><a href="../Html Fichier/Quizz.html">Quizz</a></li>
+                    <li><a href="../Html Fichier/Contact.html">Contactez-moi</a></li>
+                    <li><a href="../Html Fichier/Temoignages.html">Temoignages</a></li>
+                </ul>
+                <a href="#" class="souscrire">Souscrire</a>
+            </nav>
+        </div>
+    </header>
+
+    <!---- Corps du Site-->
+    <section class="corps">
+        <div>
+            <h2>
+                Quizz Pour <span>2.000.000TND</span>
+            </h2>
+            <h3>
+                *Repondez a 10 questions faciles pour etre le futur <span>Millionnaire</span>
+            </h3>
+
+            <form id="questionnaire">
+                <p>Quel est le capital de France ?</p>
+                <input type="text" name="question1"> <br><br>
+                
+                <p>Quel est le capital Politique du Cameroun ?</p>
+                <input type="text" name="question2"><br><br>
+
+                <p>Qui est L?</p>
+                <input type="text" name="question3"><br><br>
+
+                <p>Qui est Light yagami ?</p>
+                <input type="text" name="question4"><br><br>
+
+                <p>qui est Misa Misa ?</p>
+                <input type="text" name="question5"><br><br>
+
+                <p>Qui est Ryuk ?</p>
+                <input type="text" name="question6"><br><br>
+
+                <p>Qui est Rem ?</p>
+                <input type="text" name="question7"><br><br>
+
+                <p>Comment appelle t'on le cahier de la mort ?</p>
+                <input type="text" name="question8"><br><br>
+
+                <p>Qui est reponsable de la mort de Ray Penber?</p>
+                <input type="text" name="question9"><br><br>
+
+                <p>Quelle est la couleur de cheuveux de kira ?</p>
+                <input type="text" name="question10"><br><br>
+
+                <input type="button" value="Soumettre" onclick="submitForm()" class="soumettre">
+              </form>
+        </div>

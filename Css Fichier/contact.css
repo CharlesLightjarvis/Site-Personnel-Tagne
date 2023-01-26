@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: 'Acme', sans-serif;
+}
+
+span{
+    color: rgb(61, 164, 61);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h2{
+    color: white;
+    cursor: pointer;
+}
+.navigation li{
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: transparent;
+    transition: transform .4s;                    /*Faire grossir les elements*/
+}
+
+.navigation li:hover{
+    transform: scale(1.2);                          /*Faire grossir les elements*/
+}
+
+.navigation a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    background: rgb(61, 164, 61);
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.souscrire{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(61, 164, 61);
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: transform .1s;                                   
+}
+
+.souscrire:hover{
+    transform: rotateZ(360deg);
+}
+ 
+ section div h2{
+     color: white;
+     font-weight: bold;
+     font-size: 60px;
+     padding-left: 200px;
+     padding-top: 50px;
+ }
+
+ section div h3{
+    color: white;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.form{
+    color: white;
+    padding-left: 500px;
+    padding-top: 100px;
+    display: inline-block;
+    width: 500px;
+}
+
+.submit{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(61, 164, 61);
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: transform .1s;                                   
+}
+
+.submit:hover{
+    transform: rotateZ(360deg);
+}
+
+.none {
+    text-decoration: none;
+}
